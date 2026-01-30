@@ -1,0 +1,54 @@
+.inner {
+    position: relative;
+    overflow: hidden;
+    background: #161616;
+}
+
+.inner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        90deg,
+        var(--acent-color),
+        var(--prime-color)
+    );
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    z-index: 0;
+}
+
+.inner:hover::before {
+    opacity: 1;
+}
+
+.inner > * {
+    position: relative;
+    z-index: 1;
+}
+
+
+.inner > i{
+    color: transparent;
+}
+
+.inner:hover > i{
+    color: rgba(255, 255, 255, 0.184) !important;
+
+}
+
+.inner:hover span{
+    color: white !important;
+}
+
+.inner .icon{
+    width: 50px;
+    height: 50px;
+    border-color: #5C1D0F;
+    background: #2E1E14;
+    color: var(--prime-color);
+}
+.inner:hover .icon{
+    background: rgba(255, 255, 255, 0.184) !important;
+    color: white !important;
+}

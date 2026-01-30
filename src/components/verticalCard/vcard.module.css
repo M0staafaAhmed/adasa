@@ -1,0 +1,38 @@
+.inner{
+    background: #161616;
+}
+
+.image::before{
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, transparent 70%, black);
+    transition: all .5s;
+}
+
+.inner:hover .image::before{
+    bottom: 0;
+}
+
+.inner:hover h3{
+    color: var(--prime-color) !important;
+}
+
+.avatar{
+    width: 45px;
+    height: 45px;
+}
+
+.icon{
+    background: #29180B;
+    width: 30px;
+    height: 30px;
+} 
+
+.inner:hover .icon{
+    background: var(--prime-color);
+    color: white !important;
+}

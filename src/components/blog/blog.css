@@ -1,0 +1,98 @@
+.blog-hero .background {
+    background-image: linear-gradient(#26262680 1px, #0000 1px), linear-gradient(90deg, #26262680 1px, #0000 1px);
+    background-size: 60px 60px;
+}
+
+.search .input{
+    min-width: 100%;
+}
+
+.search .input .form-control{
+    background-color: #161616;
+    border-color: #434343;
+    color: white;
+}
+
+.search .input .form-control:focus{
+    border-color: var(--prime-color);
+    box-shadow: none;
+}
+
+.search .input .form-control::placeholder{
+    color: #ccc;
+}
+
+.search .catergries button{
+    border-color: var(--bg-prime);
+}
+
+.search .catergries button{
+    background: #161616;
+    border: 1px solid #3f3f3f;
+    color: #ccc;
+    transition: all .5s;
+}
+
+.search .catergries button:hover{
+    border-color: var(--prime-color);
+}
+
+.search .catergries button.active{
+    background: var(--prime-color);
+    color: white;
+    border-color: var(--prime-color);
+}
+
+
+.menu-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px;
+    background: #161616;
+    border: 1px solid #3f3f3f;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.menu-toggle .icon {
+    width: 35px;
+    height: 35px;
+    color: #ccc;
+}
+
+.menu-toggle .icon.active{
+    background: var(--prime-color);
+    color: white;
+}
+
+.menu-toggle + p:hover{
+    color: var(--prime-color) !important;
+    cursor: pointer;
+}
+
+.pagination button{
+    background: #161616;
+    color: #ccc;
+    border: 1px solid #3f3f3f;
+}
+
+.pagination button.active{
+    background: var(--prime-color);
+    color: white;
+}
+
+.pagination button:hover{
+    border-color: var(--prime-color);
+}
+
+.pagination .disapled:hover{
+    border-color: #3f3f3f;
+}
+
+
+@media (min-width: 768px) {
+    .search .input{
+        min-width: 25%;
+    }
+}

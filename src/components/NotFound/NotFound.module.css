@@ -1,0 +1,89 @@
+.notFoundContainer {
+    min-height: 100vh;
+    background-color: #050505;
+    background-image: 
+        linear-gradient(to right, #111 1px, transparent 1px),
+        linear-gradient(to bottom, #111 1px, transparent 1px);
+    background-size: 40px 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    direction: rtl;
+}
+
+.errorCode {
+    font-size: 150px;
+    font-weight: 900;
+    color: #f97316;
+    margin: 0;
+    line-height: 1;
+}
+
+.errorIcon {
+    font-size: 50px;
+    color: #f97316;
+    margin: 20px 0;
+}
+
+.errorTitle {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.errorText {
+    color: #888;
+    max-width: 400px;
+    margin: 0 auto 30px;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.homeBtn {
+    background: #f97316;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.blogBtn {
+    border: 1px solid #333;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footerLinks p {
+    color: #444;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.linksRow {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    color: #f97316;
+}
+
+.linksRow a {
+    color: #f97316;
+    text-decoration: none;
+    font-size: 14px;
+}

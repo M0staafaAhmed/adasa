@@ -1,0 +1,146 @@
+:root{
+    --prime-color: #FF6900;
+    --acent-color: #FA991D;
+    --bg-prime: #2E1E14;
+}
+
+::selection{
+    background-color: var(--prime-color);
+    color: #fff;
+}
+
+body{
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+}
+
+.text-prime{
+    color: var(--prime-color) !important;
+}
+
+.text-accent{
+    color: var(--acent-color) !important;
+}
+
+.prime-border{
+    border-color: #5C1D0F !important;
+}
+
+.bg-orange{
+    background-color: var(--prime-color) !important;
+}
+
+.bg-orange:hover{
+    background-color: #d85a00 !important;
+}
+
+.bg-prime{
+    background-color: var(--bg-prime) !important;
+}
+
+.bg-blackk{
+    background: #111111;
+}
+
+.bg-gradiant-2{
+    background: linear-gradient(90deg, #FF6900 , #FA991D ) !important;
+}
+
+.fs-70{
+    font-size: 4rem;
+}
+
+.fs-60{
+    font-size: 3.75rem;
+}
+
+.fs-50{
+    font-size: 3.5rem;
+}
+
+.fs-5-5{
+    font-size: 1.2rem;
+}
+
+.fs-12{
+    font-size: .75rem;
+}
+
+.fs-13{
+    font-size: .8rem;
+}
+
+.fs-14{
+    font-size: .85rem;
+}
+
+.fs-10{
+    font-size: .625rem;
+}
+
+.fs-8{
+    font-size: .5rem;
+}
+
+.fs-4-px{
+    font-size: .25rem;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.cursor-disapled{
+    cursor: not-allowed;
+}
+
+.transition-03{
+    transition: all .3s;
+}
+
+.transition-05{
+    transition: all .5s;
+}
+
+.pt-65{
+    padding-top: 65px;
+}
+
+.mt-70{
+    margin-top: 70px;
+}
+
+.object-cover{
+    object-fit: cover;
+}
+
+.w-fit{
+    width: fit-content;
+}
+
+.hover-white:hover{
+    color: white !important;
+}
+
+
+.w-70{
+    width: 70px;
+}
+
+.h-70{
+    height: 70px;
+}
+
+.text-talic{
+    font-style: italic;
+}
+
+.top-80px{
+    top: 80px;
+}

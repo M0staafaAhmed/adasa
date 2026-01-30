@@ -1,0 +1,69 @@
+.post-hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.post-hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, transparent, #000);
+}
+
+.post-content .icon,
+.tag {
+    width: 40px;
+    height: 40px;
+}
+
+.tags p:hover {
+    color: var(--prime-color) !important;
+    border-color: var(--prime-color) !important;
+}
+
+/* Twitter */
+.tag:has(.fa-x-twitter):hover {
+    background-color: #1DA1F2;
+    color: #fff;
+}
+
+/* LinkedIn */
+.tag:has(.fa-linkedin-in):hover {
+    background-color: #0A66C2;
+    color: #fff;
+}
+
+/* WhatsApp */
+.tag:has(.fa-whatsapp):hover {
+    background-color: #25D366;
+    color: #fff;
+}
+
+/* Link */
+.tag:has(.fa-link):hover {
+    background-color: var(--prime-color);
+    color: #fff;
+}
+
+#post .right .number {
+    width: 25px;
+    height: 25px;
+    background: #1A1A1A;
+}
+
+#post .right a:hover {
+    background: #1D1510 !important;
+}
+
+#post .right a:hover p {
+    color: var(--prime-color) !important;
+}
+
+#post .right a:hover p.number {
+    background: #341D0E !important;
+}

@@ -1,0 +1,147 @@
+.footerWrapper {
+    background-color: #0a0a0a;
+    padding: 80px 0 0px; 
+    border-top: 1px solid #1a1a1a;
+    position: relative; 
+    overflow: hidden;    
+    isolation: isolate;  
+    
+}
+
+.circle {
+    width: 384px;
+    height: 384px;
+    border-radius: 40%;
+    background-color: #ff69001a;
+    filter: blur(50px) brightness(115%) contrast(100%) saturate(130%) opacity(70%);
+    z-index: -1;
+    pointer-events: none; 
+}
+
+.bottomBar {
+    margin-top: 60px;
+    padding: 30px 0;
+    border-top: 1px solid #1a1a1a;
+    width: 100%;
+    position: relative;
+    z-index: 2; 
+}
+
+
+
+
+
+
+
+.logoBox {
+    background: #f97316;
+    color: white;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bolder;
+    box-shadow: 0 0 15px rgba(249, 115, 22, 0.4);
+}
+
+.description {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footerTitle {
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.footerTitle::after {
+    content: "";
+    position: absolute;
+    right: -40px;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 2px;
+    background-color: #f97316;
+}
+
+.footerLink {
+    color: #888;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.f14{
+    font-size: 14px;
+}
+
+.footerLink:hover {
+    color: #f97316;
+}
+
+.socialIcon {
+    width: 40px;
+    height: 40px;
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.socialIcon:hover {
+    border-color: #f97316;
+    color: white;
+    background: oklch(70.5% .213 47.604);
+    scale: 1.05;
+}
+
+.footerInput {
+    width: 100%;
+    background: #161616;
+    border: 1px solid #1a1a1a;
+    padding: 12px 15px;
+    border-radius: 12px;
+    color: #fff;
+    margin-bottom: 15px;
+    outline: none;
+    text-align: right;
+}
+
+.footerInput:focus {
+    border-color: #f97316;
+}
+
+.footerBtn {
+    width: 100%;
+    background: #f97316;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.footerBtn:hover {
+    transform: translateY(-2px)
+}
+
+.bottomBar p{
+font-size: 16px;
+}
+
+.textorange{
+    color: oklch(70.5% .213 47.604);
+}

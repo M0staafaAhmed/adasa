@@ -3,7 +3,7 @@ import './home.css'
 import { Link } from 'react-router'
 import Hcard from '../horizontal card/Hcard';
 import CategoryCard from './../categoryCard/CategoryCard';
-import VCard from '../verticalCard/vCard';
+import VCard from '../verticalCard/VCard';
 
 export default function Home({ name, posts, categories }) {
 

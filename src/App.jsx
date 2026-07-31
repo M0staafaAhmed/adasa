@@ -16,7 +16,7 @@ function App() {
   let [data , setData] = useState(posts);
   
 
-  let rout = createBrowserRouter([
+  let route = createBrowserRouter([
     {index: "", element: <Layer data={data.siteInfo} /> , children: [
       {index: true, element: <Home name={data.siteInfo.name} posts={data.posts} categories={data.categories}/>},
       {path: "home", element: <Home name={data.siteInfo.name} posts={data.posts} categories={data.categories} />},
@@ -29,7 +29,7 @@ function App() {
   
   return (
     <>
-      <RouterProvider router={rout}/>
+      <RouterProvider router={route}/>
     </>
   )
 }

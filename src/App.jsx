@@ -10,6 +10,7 @@ import Home from './components/Home/Home';
 import Blog from './components/blog/Blog';
 import Post from './components/post/Post';
 import NotFound from './components/NotFound/NotFound';
+import About from './components/about/About';
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
       {path: "home", element: <Home name={data.siteInfo.name} posts={data.posts} categories={data.categories} />},
       {path: "blog", element: <Blog posts={data}/> },
       {path: "/blog/:slug", element: <Post posts={data.posts} />},
-      {path: "about", element: <h1>about</h1>},
+      {path: "about", element: <About/>},
       {path: "*", element: <NotFound/>},
     ]},
   ])

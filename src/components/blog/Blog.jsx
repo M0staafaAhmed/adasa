@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './blog.css'
-import VCard from '../verticalCard/vCard';
+import VCard from '../verticalCard/VCard';
 import { useSearchParams } from 'react-router';
 import Hcard from '../horizontal card/Hcard';
 
